@@ -7,7 +7,7 @@ services:
     image: vprocontainers/vprofiledb
     container_name: vprodb
     ports:
-      - "8000:5000"
+      - "3306:3306"
     volumes:
       - vprodbdata:/var/lib/mysql
     environment:
